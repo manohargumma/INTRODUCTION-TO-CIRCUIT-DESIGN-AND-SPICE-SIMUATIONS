@@ -7,7 +7,7 @@ For a **CMOS inverter**, the **SPICE deck** includes:
 - **Name Nodes:** Assign names to each node, ensuring clear identification during simulations (e.g., **Vout** for the output node).
 ![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/931a2bdce0f0a3debb588666d832a32fe13c7fdb/DAY3/day3pics/Screenshot%20from%202025-10-16%2021-39-24.png)
 ### SPICE simulation for CMOS inverter
-SPICE Netlist for CMOS Inverter
+SPICE Netlist for CMOS Inverter 
 A **SPICE netlist** for a CMOS inverter includes transistor models, power supply connections, input voltage source, transistor specifications (PMOS and NMOS), and simulation commands (e.g., `.tran` for transient analysis).
 ![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/931a2bdce0f0a3debb588666d832a32fe13c7fdb/DAY3/day3pics/Screenshot%20from%202025-10-16%2021-39-58.png)
 Same Wn/Ln = Wp/Lp = 1.5. Plot out vs in:

@@ -25,3 +25,9 @@ At ***higher electric fields***, velocity ***saturates*** and becomes ***constan
 ## CMOS Voltage Transfer Characteristics (VTC):
 1.Vout is ***high*** when Vin is ***low***, and Vout is ***low*** when Vin is ***high***.<br>
 2. The ***transition region*** shows a steep drop where both NMOS and PMOS conduct, defining the switching threshold.<br>
+### MOSFET as a switch
+![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/26a49b000ed74f5bb71d578b56a816e01cf15925/DAY2/picslab2/Screenshot%20from%202025-10-16%2019-53-23.png)
+![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/26a49b000ed74f5bb71d578b56a816e01cf15925/DAY2/picslab2/Screenshot%20from%202025-10-16%2019-53-51.png)
+![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/26a49b000ed74f5bb71d578b56a816e01cf15925/DAY2/picslab2/Screenshot%20from%202025-10-16%2019-54-41.png)
+### Introduction to Standard MOS Voltage-Current Parameters:
+In MOS devices, Rp (PMOS) and Rn (NMOS) act as ***non-linear resistors***, where their resistance is a ***function of drain current (Ids)***, influenced by gate voltage (Vgs) and drain voltage (Vds

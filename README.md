@@ -47,3 +47,21 @@ In the saturation (or pinch-off) region, the drain current Id becomes independen
 ![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/77528146a0683120084893ccda1b50edaa12d5cf/pics/Screenshot%20from%202025-10-16%2015-13-16.png)
 ![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/77528146a0683120084893ccda1b50edaa12d5cf/pics/Screenshot%20from%202025-10-16%2015-13-24.png)
 ![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/77528146a0683120084893ccda1b50edaa12d5cf/pics/Screenshot%20from%202025-10-16%2015-13-35.png)
+![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/a6590f7b41f8a80a61ec1554158dd33047b1fda9/pics/Screenshot%20from%202025-10-16%2015-14-38.png)
+## SPICE equations
+![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/a6590f7b41f8a80a61ec1554158dd33047b1fda9/pics/Screenshot%20from%202025-10-16%2015-15-00.png)
+## spice parameters 
+
+![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/a6590f7b41f8a80a61ec1554158dd33047b1fda9/pics/Screenshot%20from%202025-10-16%2015-15-11.png)
+## Spice setup
+![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/a6590f7b41f8a80a61ec1554158dd33047b1fda9/pics/Screenshot%20from%202025-10-16%2015-15-18.png)
+## Spice netlist 
+***SPICE Netlist Example:*** <br>
+
+->M1 vdd n1 0 0 nmos W=1.8u L=1.2u: Defines an NMOS transistor with gate width 1.8µ and length 1.2µ, connecting vdd (drain), n1 (gate), 0 (source and substrate).<bf>
+->R1 in n1 55: Defines a resistor with value 55Ω between in and n1.<br>
+->Vdd vdd 0 2.5: Defines a voltage source of 2.5V between vdd and ground (0).<br>
+->Vin in 0 2.5: Defines an input voltage source of 2.5V between in and ground (0).
+![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/a6590f7b41f8a80a61ec1554158dd33047b1fda9/pics/Screenshot%20from%202025-10-16%2015-16-07.png)
+## Spice Technologiefile 
+![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/a6590f7b41f8a80a61ec1554158dd33047b1fda9/pics/Screenshot%20from%202025-10-16%2015-16-07.png)

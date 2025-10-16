@@ -112,7 +112,7 @@ R1 n1 in 55
 
 Vdd vdd 0 1.8V
 Vin in 0 1.8V
-
+ 
 *simulation commands
 
 .op

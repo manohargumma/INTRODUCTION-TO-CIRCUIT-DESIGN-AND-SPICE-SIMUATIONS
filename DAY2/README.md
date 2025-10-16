@@ -30,4 +30,19 @@ At ***higher electric fields***, velocity ***saturates*** and becomes ***constan
 ![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/26a49b000ed74f5bb71d578b56a816e01cf15925/DAY2/picslab2/Screenshot%20from%202025-10-16%2019-53-51.png)
 ![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/26a49b000ed74f5bb71d578b56a816e01cf15925/DAY2/picslab2/Screenshot%20from%202025-10-16%2019-54-41.png)
 ### Introduction to Standard MOS Voltage-Current Parameters:
-In MOS devices, Rp (PMOS) and Rn (NMOS) act as ***non-linear resistors***, where their resistance is a ***function of drain current (Ids)***, influenced by gate voltage (Vgs) and drain voltage (Vds
+In MOS devices, Rp (PMOS) and Rn (NMOS) act as ***non-linear resistors***, where their resistance is a ***function of drain current (Ids)***, influenced by gate voltage (Vgs) and drain voltage (Vds)
+![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/f3e88a282f1b4ca904af57f51dd65c3c80267bb8/DAY2/picslab2/Screenshot%20from%202025-10-16%2019-55-11.png)
+### PMOS/NMOS Drain Current vs. Drain Voltage:
+->Drain current (***Ids***) increases linearly with ***Vds***.
+->Device behaves like a ***resistor*** controlled by Vgs.
+### 
+
+
+1. **Linear Region (Vds < Vdsat):**
+   - Drain current (**Ids**) increases *linearly* with **Vds**.  
+   - Device behaves like a **resistor** controlled by **Vgs**.
+
+2. **Saturation Region (Vds > Vdsat):**
+   - Drain current (**Ids**) becomes **constant** and independent of **Vds**.  
+   - For **NMOS**, Ids depends on **Vgs - Vth**.  
+   - For **PMOS**, Ids depends on **Vth - Vgs**.

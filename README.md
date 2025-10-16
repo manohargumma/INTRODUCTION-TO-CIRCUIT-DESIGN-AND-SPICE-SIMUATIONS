@@ -17,25 +17,13 @@ The difference between CBUF1 and CBUF2 comes from their circuit design, which mi
 
 The delay table values are obtained from SPICE simulations, which are also used to verify delays for the circuit design.
 ## Introduction to Basic Element in Circuit Design - NMOS Transistor
+**NMOS Transistor:** An N-type Metal-Oxide-Semiconductor that conducts when a positive voltage is applied to its gate, enabling current flow from drain to source.
+![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/12a6a2e72fd4a49e4dc2c94dbb4c4011f015b003/pics/Screenshot%20from%202025-10-16%2014-48-41.png)
 
+**Threshold Voltage:** A key parameter that drives SPICE simulations, representing the voltage at which a transistor switches from off to on.
 
-- **Type:** N-channel MOSFET (uses electrons)  
-- **Terminals:** Gate (G), Drain (D), Source (S), Body (B)  
-- **Works when:** V<sub>GS</sub> > V<sub>th</sub>  
-- **Regions:**  
-  - Cutoff → OFF  
-  - Linear → Acts as resistor  
-  - Saturation → Acts as current source  
-- **Key Equation:** I<sub>D</sub> = ½·k·(V<sub>GS</sub> − V<sub>th</sub>)²  
-- **Applications:** Logic gates, switches, amplifiers  
-- **Complementary Device:** PMOS  
+![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/12a6a2e72fd4a49e4dc2c94dbb4c4011f015b003/pics/Screenshot%20from%202025-10-16%2014-49-31.png)
+**Strong Inversion:** The condition where the transistor channel is fully formed, allowing significant current flow.
 
----
-![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/ece5f17695fe52b2c1d9e7d118658401b966ffe4/pics/WhatsApp%20Image%202025-10-16%20at%2014.29.39.jpeg)
-
-***Threshold Voltage:*** A key parameter that drives SPICE simulations, representing the voltage at which a transistor switches from off to on.
-![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/8f9b671e9e1a816dd71210da7f5a62d4723d7731/pics/WhatsApp%20Image%202025-10-16%20at%2014.29.39%20(1).jpeg)
-
-***Strong Inversion:*** The condition where the transistor channel is fully formed, allowing significant current flow.
-
-***Threshold Voltage with Substrate Potential:*** The threshold voltage varies with changes in substrate potential due to the body effect.
+**Threshold Voltage with Substrate Potential:** The threshold voltage varies with changes in substrate potential due to the body effect.
+![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/12a6a2e72fd4a49e4dc2c94dbb4c4011f015b003/pics/Screenshot%20from%202025-10-16%2014-49-48.png)

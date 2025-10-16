@@ -27,3 +27,15 @@ The delay table values are obtained from SPICE simulations, which are also used 
 
 **Threshold Voltage with Substrate Potential:** The threshold voltage varies with changes in substrate potential due to the body effect.
 ![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/12a6a2e72fd4a49e4dc2c94dbb4c4011f015b003/pics/Screenshot%20from%202025-10-16%2014-49-48.png)
+**Body Effect Coefficient and Fermi Potential:** Constants provided by the foundry that form the transistor model and are fed into SPICE simulations for various calculations.
+![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/fdf814f8fbf32443b619fdbd06ead3203ec73b3f/pics/Screenshot%20from%202025-10-16%2015-05-20.png)
+## NMOS Resistive and Saturation Regions of Operation
+Resistive region of operation with small drain-source voltage
+![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/fdf814f8fbf32443b619fdbd06ead3203ec73b3f/pics/Screenshot%20from%202025-10-16%2015-06-05.png)
+**Drift Current:** Current caused by a potential difference across the material.
+**Diffusion Current:** Current resulting from a difference in carrier concentration.
+**Cox:** A constant value provided by the foundry, representing oxide capacitance.
+![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/fdf814f8fbf32443b619fdbd06ead3203ec73b3f/pics/Screenshot%20from%202025-10-16%2015-06-58.png)
+## Drain current model for linear region of operation
+![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/fdf814f8fbf32443b619fdbd06ead3203ec73b3f/pics/Screenshot%20from%202025-10-16%2015-07-56.png)
+![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/fdf814f8fbf32443b619fdbd06ead3203ec73b3f/pics/Screenshot%20from%202025-10-16%2015-10-18.png)

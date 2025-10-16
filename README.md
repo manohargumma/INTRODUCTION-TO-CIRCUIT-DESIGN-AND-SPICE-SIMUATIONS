@@ -67,3 +67,16 @@ In the saturation (or pinch-off) region, the drain current Id becomes independen
 ![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/d5a792ebdbd8f5cfa443a4e204bf8d461190b68d/pics/Screenshot%20from%202025-10-16%2015-16-46.png)
 ## Simulation Commands
 ![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/d02388f50b45b9ee5c3b4c302f6cd112e409b6f6/pics/Screenshot%20from%202025-10-16%2015-17-22.png)
+# LAB-1
+## 1. Introduction to SPICE
+
+SPICE (Simulation Program with Integrated Circuit Emphasis) is a powerful tool used for simulating the behavior of electronic circuits. It allows circuit designers to analyze and validate designs before fabrication by providing insights into performance metrics such as voltage, current, and power consumption.
+
+**SPICE Lab with Sky130 Models** <br>
+
+To use SPICE with Sky130 technology, you can clone the relevant GitHub repository containing Sky130 models and circuits for simulation.
+**Clone the repo:**<br>
+Clone the repository with the following command:
+'''bash
+git clone https://github.com/kunalg123/sky130CircuitDesignWorkshop.git
+'''

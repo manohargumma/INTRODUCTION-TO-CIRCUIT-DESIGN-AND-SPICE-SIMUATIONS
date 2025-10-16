@@ -33,9 +33,7 @@ At ***higher electric fields***, velocity ***saturates*** and becomes ***constan
 In MOS devices, Rp (PMOS) and Rn (NMOS) act as ***non-linear resistors***, where their resistance is a ***function of drain current (Ids)***, influenced by gate voltage (Vgs) and drain voltage (Vds)
 ![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/f3e88a282f1b4ca904af57f51dd65c3c80267bb8/DAY2/picslab2/Screenshot%20from%202025-10-16%2019-55-11.png)
 ### PMOS/NMOS Drain Current vs. Drain Voltage:
-->Drain current (***Ids***) increases linearly with ***Vds***.
-->Device behaves like a ***resistor*** controlled by Vgs.
-### 
+
 
 
 1. **Linear Region (Vds < Vdsat):**
@@ -46,3 +44,6 @@ In MOS devices, Rp (PMOS) and Rn (NMOS) act as ***non-linear resistors***, where
    - Drain current (**Ids**) becomes **constant** and independent of **Vds**.  
    - For **NMOS**, Ids depends on **Vgs - Vth**.  
    - For **PMOS**, Ids depends on **Vth - Vgs**.
+![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/9bcf3eb89b27daca5b438e80e39f71ed7f8f3331/DAY2/picslab2/Screenshot%20from%202025-10-16%2019-56-02.png)   
+
+

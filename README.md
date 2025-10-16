@@ -27,7 +27,7 @@ If you enjoyed this work or found it useful,
 consider showing your support 💖 by **starring ⭐ this repository** or **forking 🔁 it** to explore further!
 
 <p align="center">
-  <a href="https://github.com/manohargumma/Post-Synthesis-GLS-STA-Fundamentals" target="_blank">
+  <a href="https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS.git" target="_blank">
     <img src="https://img.shields.io/badge/⭐ Star%20This%20Repo-blue?style=for-the-badge"/>
   </a>
   <a href="https://github.com/manohargumma?tab=repositories" target="_blank">

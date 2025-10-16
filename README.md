@@ -72,7 +72,7 @@ In the saturation (or pinch-off) region, the drain current Id becomes independen
 
 SPICE (Simulation Program with Integrated Circuit Emphasis) is a powerful tool used for simulating the behavior of electronic circuits. It allows circuit designers to analyze and validate designs before fabrication by providing insights into performance metrics such as voltage, current, and power consumption.
 
-## 2.SPICE Lab with Sky130 Models** <br>
+## 2.SPICE Lab with Sky130 Models<br>
 
 To use SPICE with Sky130 technology, you can clone the relevant GitHub repository containing Sky130 models and circuits for simulation.
 **Clone the repo:**<br>
@@ -91,3 +91,46 @@ This file provides the corner model for the NFET, used for simulating different 
 
 3./sky130CircuitDesignWorkshop/design/sky130_fd_pr/models/sky130.lib.pm3.spice<br>
 This library file contains all the SPICE models for components in the Sky130 process node.<br><br>
+## EXAMPLE
+
+```bash
+*Model Description
+.param temp=27
+
+
+*Including sky130 library files
+.lib "sky130_fd_pr/models/sky130.lib.spice" tt
+
+
+*Netlist Description
+
+
+
+XM1 Vdd n1 0 0 sky130_fd_pr__nfet_01v8 w=5 l=2
+
+R1 n1 in 55
+
+Vdd vdd 0 1.8V
+Vin in 0 1.8V
+
+*simulation commands
+
+.op
+.dc Vdd 0 1.8 0.1 Vin 0 1.8 0.2
+
+.control
+
+run
+display
+setplot dc1
+.endc
+
+.end
+```
+## To plot the waveforms in ngspice
+
+```bash
+$cd /VLSI/sky130CircuitDesignWorkshop/design
+$ ngspice day1_nfet_idvds_L2_W5.spice
+--->plot -vdd#branch
+``

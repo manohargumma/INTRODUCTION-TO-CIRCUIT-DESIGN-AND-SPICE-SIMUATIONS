@@ -65,3 +65,5 @@ In the saturation (or pinch-off) region, the drain current Id becomes independen
 ![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/a6590f7b41f8a80a61ec1554158dd33047b1fda9/pics/Screenshot%20from%202025-10-16%2015-16-07.png)
 ## Spice Technologiefile 
 ![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/d5a792ebdbd8f5cfa443a4e204bf8d461190b68d/pics/Screenshot%20from%202025-10-16%2015-16-46.png)
+## Simulation Commands
+![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/d02388f50b45b9ee5c3b4c302f6cd112e409b6f6/pics/Screenshot%20from%202025-10-16%2015-17-22.png)

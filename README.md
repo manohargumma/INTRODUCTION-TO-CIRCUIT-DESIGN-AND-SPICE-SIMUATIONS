@@ -13,3 +13,6 @@ These simulations are essential for measuring key parameters such as delay, rise
 ![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/7ff37809307194b728e8cbc5779436400d03279b/pics/Screenshot%20from%202025-10-15%2017-11-29.png)
 ### on considering the following example
 ![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/ce41d03989a1e697d47850bb6eaf5944500a70cc/pics/Screenshot%20from%202025-10-15%2017-12-30.png)
+The difference between CBUF1 and CBUF2 comes from their circuit design, which might have different drive strengths or W/L ratios (transistor width-to-length).
+
+The delay table values are obtained from SPICE simulations, which are also used to verify delays for the circuit design.

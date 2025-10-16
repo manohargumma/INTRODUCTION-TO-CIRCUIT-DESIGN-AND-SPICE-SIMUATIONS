@@ -17,9 +17,7 @@ The difference between CBUF1 and CBUF2 comes from their circuit design, which mi
 
 The delay table values are obtained from SPICE simulations, which are also used to verify delays for the circuit design.
 ## Introduction to Basic Element in Circuit Design - NMOS Transistor
-# ⚡ NMOS Transistor
-
-## 🧩 Short Notes
+s
 
 - **Type:** N-channel MOSFET (uses electrons)  
 - **Terminals:** Gate (G), Drain (D), Source (S), Body (B)  
@@ -34,10 +32,3 @@ The delay table values are obtained from SPICE simulations, which are also used 
 
 ---
 
-### 🖼️ Diagram
-![NMOS Transistor](A_diagram_on_a_light_beige_background_provides_an_.png)
-
----
-
-### ✨ Author
-**Manohar G.**

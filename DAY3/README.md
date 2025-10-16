@@ -18,7 +18,9 @@ The **switching threshold (Vm)** is the point where **Vin = Vout**, and both tra
 
 ![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/931a2bdce0f0a3debb588666d832a32fe13c7fdb/DAY3/day3pics/Screenshot%20from%202025-10-16%2021-44-19.png)
 ![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/931a2bdce0f0a3debb588666d832a32fe13c7fdb/DAY3/day3pics/Screenshot%20from%202025-10-16%2021-44-45.png)
+
 In the **velocity-saturated** case, the **switching threshold (Vm)** is the point where both **NMOS** and **PMOS** transistors are in saturation, and the drain currents are equal. This occurs when the **VDS** of both devices is less than the saturation voltage, i.e., **VDSAT < (Vm − VT)**. The threshold voltage **Vm** can be derived by equating the drain currents of both transistors, with the device widths and lengths (W/L ratios) playing a key role in determining the point where both transistors conduct equally.
+
 ![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/931a2bdce0f0a3debb588666d832a32fe13c7fdb/DAY3/day3pics/Screenshot%20from%202025-10-16%2021-45-51.png)
 ![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/931a2bdce0f0a3debb588666d832a32fe13c7fdb/DAY3/day3pics/Screenshot%20from%202025-10-16%2021-46-19.png)
 ![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/931a2bdce0f0a3debb588666d832a32fe13c7fdb/DAY3/day3pics/Screenshot%20from%202025-10-16%2021-48-04.png)
@@ -45,38 +47,49 @@ In the **velocity-saturated** case, the **switching threshold (Vm)** is the poin
   - Increasing NMOS width shifts **Vm** downwards.  
   - **Vm** is relatively stable with small variations in transistor ratios.
 
-![Screenshot 2024-12-13 004109](https://github.com/user-attachments/assets/96db3cee-e37e-483c-bc26-b0b73a5e9879)
+![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/1007403bf643e51b75e9906e83a9e1f0188b6369/DAY3/day3pics/Screenshot%20from%202025-10-16%2021-54-58.png)
 ### Applications of CMOS inverter in clock network and STA
-![Screenshot 2024-12-13 004117](https://github.com/user-attachments/assets/eca7545e-77fd-445f-9cb3-e4bab470e467)
-![Screenshot 2024-12-13 004125](https://github.com/user-attachments/assets/5c1f76b4-c628-4c1a-99b6-a284ddd10546)
-![Screenshot 2024-12-13 004137](https://github.com/user-attachments/assets/3e8d32f4-0f22-481c-813f-3c5dcbfa747b)
-![Screenshot 2024-12-13 004148](https://github.com/user-attachments/assets/354c9277-12c2-45b0-b4af-2f20acf4d2e6)
-# LABS
+![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/1007403bf643e51b75e9906e83a9e1f0188b6369/DAY3/day3pics/Screenshot%20from%202025-10-16%2021-55-45.png)
+![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/1007403bf643e51b75e9906e83a9e1f0188b6369/DAY3/day3pics/Screenshot%20from%202025-10-16%2021-56-15.png)
+![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/1007403bf643e51b75e9906e83a9e1f0188b6369/DAY3/day3pics/Screenshot%20from%202025-10-16%2021-56-38.png)
+![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/1007403bf643e51b75e9906e83a9e1f0188b6369/DAY3/day3pics/Screenshot%20from%202025-10-16%2021-56-44.png)
+# LABS-3
 ## 1. Voltage transfer characteristics: SPICE simulations
 #### Sky130 SPICE simulation for CMOS - VTC
      *Model Description
-     .param temp=27
+.param temp=27
 
-      *Including sky130 library files
-      .lib "sky130_fd_pr/models/sky130.lib.spice" tt
 
-      *Netlist Description
-       XM1 out in vdd vdd sky130_fd_pr__pfet_01v8 w=0.84 l=0.15
-       XM2 out in 0 0 sky130_fd_pr__nfet_01v8 w=0.36 l=0.15
-       Cload out 0 50fF
-       Vdd vdd 0 1.8V
-       Vin in 0 1.8V
+*Including sky130 library files
+.lib "sky130_fd_pr/models/sky130.lib.spice" tt
 
-       *simulation commands
-        .op
-       .dc Vin 0 1.8 0.01
 
-        .control
-         run
-        setplot dc1
-        display
-        .endc
-        .end
+*Netlist Description
+
+
+XM1 out in vdd vdd sky130_fd_pr__pfet_01v8 w=0.84 l=0.15
+XM2 out in 0 0 sky130_fd_pr__nfet_01v8 w=0.36 l=0.15
+
+
+Cload out 0 50fF
+
+Vdd vdd 0 1.8V
+Vin in 0 1.8V
+
+*simulation commands
+
+.op
+
+.dc Vin 0 1.8 0.01
+
+.control
+run
+setplot dc1
+display
+.endc
+
+.end
+
         
 ![WhatsApp Image 2024-12-12 at 10 59 21 PM](https://github.com/user-attachments/assets/e5b60ff6-bc40-47f8-bedd-d0e1f406fae6)
 ![WhatsApp Image 2024-12-12 at 10 59 21 PM (1)](https://github.com/user-attachments/assets/1d249ffe-65a4-4f87-a632-1c8114f4ff69)
@@ -88,26 +101,40 @@ In the **velocity-saturated** case, the **switching threshold (Vm)** is the poin
 
   ### Sky130 SPICE simulation for CMOS - Transient Analysis
       *Model Description
-       .param temp=27
+.param temp=27
 
-      *Including sky130 library files
-        .lib "sky130_fd_pr/models/sky130.lib.spice" tt
 
-        *Netlist Description
-         XM1 out in vdd vdd sky130_fd_pr__pfet_01v8 w=0.84 l=0.15
-         XM2 out in 0 0 sky130_fd_pr__nfet_01v8 w=0.36 l=0.15
-         Cload out 0 50fF
-         Vdd vdd 0 1.8V
-         Vin in 0 PULSE(0V 1.8V 0 0.1ns 0.1ns 2ns 4ns)
+*Including sky130 library files
+.lib "sky130_fd_pr/models/sky130.lib.spice" tt
 
-         *simulation commands
-         .tran 1n 10n
-         .control
-          run
-          .endc
-          .end
-  
-  ![WhatsApp Image 2024-12-12 at 10 59 17 PM](https://github.com/user-attachments/assets/bad784a5-848a-4190-a74f-bd70ce13cf5d)
+
+*Netlist Description
+
+
+XM1 out in vdd vdd sky130_fd_pr__pfet_01v8 w=0.84 l=0.15
+XM2 out in 0 0 sky130_fd_pr__nfet_01v8 w=0.36 l=0.15
+
+
+Cload out 0 50fF
+
+Vdd vdd 0 1.8V
+Vin in 0 1.8V
+
+*simulation commands
+
+.op
+
+.dc Vin 0 1.8 0.01
+
+.control
+run
+setplot dc1
+display
+.endc
+
+.end
+
+  ![image](
   ![WhatsApp Image 2024-12-12 at 10 59 18 PM](https://github.com/user-attachments/assets/7a95401c-8491-4a4d-ac4f-b3cc1dc7ebc5)
 - **Propagation Delay:**  
   The time difference (measured at 50% of input-output transition) between the input signal change and the corresponding output signal switch in a logic gate (e.g., inverter).

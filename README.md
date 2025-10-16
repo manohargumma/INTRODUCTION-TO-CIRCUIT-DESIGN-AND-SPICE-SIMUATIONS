@@ -39,3 +39,11 @@ Resistive region of operation with small drain-source voltage
 ## Drain current model for linear region of operation
 ![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/fdf814f8fbf32443b619fdbd06ead3203ec73b3f/pics/Screenshot%20from%202025-10-16%2015-07-56.png)
 ![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/fdf814f8fbf32443b619fdbd06ead3203ec73b3f/pics/Screenshot%20from%202025-10-16%2015-10-18.png)
+### SPICE Conclusion to Resistive Operation:
+SPICE simulations allow us to calculate the drain current (Id) for different Vgs values by sweeping Vds for each Vgs until Vgs - Vt is reached. This helps in generating accurate Id-Vds curves and understanding the transistor's behavior.
+
+### Saturation Region/Pinch-off Region Condition:
+In the saturation (or pinch-off) region, the drain current Id becomes independent of Vds and depends only on Vgs, as long as Vds ≥ Vgs - Vt. This is where the transistor is fully "on" and conducting.
+![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/77528146a0683120084893ccda1b50edaa12d5cf/pics/Screenshot%20from%202025-10-16%2015-13-16.png)
+![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/77528146a0683120084893ccda1b50edaa12d5cf/pics/Screenshot%20from%202025-10-16%2015-13-24.png)
+![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/77528146a0683120084893ccda1b50edaa12d5cf/pics/Screenshot%20from%202025-10-16%2015-13-35.png)

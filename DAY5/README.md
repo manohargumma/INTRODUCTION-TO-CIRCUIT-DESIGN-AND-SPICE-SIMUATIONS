@@ -1,5 +1,5 @@
 
-# **1. Static Behavior Evaluation: CMOS Inverter Robustness - Power Supply Variation**
+#  Static Behavior Evaluation: CMOS Inverter Robustness - Power Supply Variation
 
 **Overview:**  
 - Power supply scaling affects the static behavior of the CMOS inverter, including the switching threshold, noise margins, and overall robustness.  

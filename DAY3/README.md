@@ -56,7 +56,12 @@ In the **velocity-saturated** case, the **switching threshold (Vm)** is the poin
 # LABS-3
 ## 1. Voltage transfer characteristics: SPICE simulations
 #### Sky130 SPICE simulation for CMOS - VTC
-     *Model Description
+
+```bash
+
+
+
+     
 .param temp=27
 
 
@@ -90,7 +95,7 @@ display
 
 .end
 
-        
+ ```       
 ![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/adf92648afa74771e56fa76a69d2d8d43c95923c/DAY3/day3pics/Screenshot%20from%202025-10-16%2022-21-12.png)
 ![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/adf92648afa74771e56fa76a69d2d8d43c95923c/DAY3/day3pics/Screenshot%20from%202025-10-16%2022-21-32.png)
 - **Switching Threshold (VM):**  
@@ -99,7 +104,9 @@ display
   - Also referred to as the **midpoint voltage** of the CMOS inverter.
 
   ### Sky130 SPICE simulation for CMOS - Transient Analysis
-      *Model Description
+```bash
+
+*Model Description
 .param temp=27
 
 
@@ -117,22 +124,22 @@ XM2 out in 0 0 sky130_fd_pr__nfet_01v8 w=0.36 l=0.15
 Cload out 0 50fF
 
 Vdd vdd 0 1.8V
-Vin in 0 1.8V
+Vin in 0 PULSE(0V 1.8V 0 0.1ns 0.1ns 2ns 4ns)
 
 *simulation commands
 
-.op
-
-.dc Vin 0 1.8 0.01
+.tran 1n 10n
 
 .control
 run
-setplot dc1
-display
 .endc
 
 .end
 
+
+     
+
+ ```   
   ![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/0b4d5b25ac94c10d92a98653432af855bafa745f/DAY3/day3pics/Screenshot%20from%202025-10-16%2012-20-46.png)
   ![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/0b4d5b25ac94c10d92a98653432af855bafa745f/DAY3/day3pics/Screenshot%20from%202025-10-16%2012-23-47.png)
   ![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/0b4d5b25ac94c10d92a98653432af855bafa745f/DAY3/day3pics/Screenshot%20from%202025-10-16%2012-25-03.png)

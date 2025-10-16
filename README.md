@@ -2,7 +2,7 @@
 ![Tool-Ngspice](https://img.shields.io/badge/Tool-Ngspice-blue)
 ![PDK-Sky130](https://img.shields.io/badge/PDK-Sky130-orange)  
 ![Platform-RISC_V_SoC](https://img.shields.io/badge/Platform-RISC--V_SoC-green)
-![License](https://img.shields.io/badge/License-GPLv3-red)
+![License](https://img.shields.io/badge/License-GPLv3-red) 
 ### Why do we need SPICE simulations?
 In the RISC-V Reference SoC Tapeout Program, SPICE simulation plays a crucial role in understanding and verifying transistor-level behavior before fabrication. Using Ngspice with the Sky130 PDK, designers can analyze how individual devices and circuits respond to real electrical conditions. Through Week 4 tasks — from studying NMOS I-V characteristics and velocity saturation to exploring CMOS inverter behavior, switching thresholds, and noise/power robustness — SPICE helps visualize and measure the true performance of transistors and logic gates.
 ## ⚡ SPICE Simulation

@@ -11,7 +11,7 @@ Welcome to my day-by-day documentation of SPICE simulation and circuit design wo
 
 | Day | Topic / Work | Link |
 |-----|---------------|------|
-| 🗓️ Day 1 | Basic Circuit Simulations | [View Work](DAY1/README.md) |
+| 🗓️ Day 1 | Basic Circuit Simulations | [View Work](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/776d04d3b5fde14072a1ec53d3ef7ac1dbf9e7b6/DAY1/readme.md) |
 | 🗓️ Day 2 | Transistor Characteristics | [View Work](DAY2/README.md) |
 | 🗓️ Day 3 | CMOS Inverter Design | [View Work](DAY3/README.md) |
 | 🗓️ Day 4 | Amplifier Circuits | [View Work](DAY4/README.md) |

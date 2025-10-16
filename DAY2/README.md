@@ -61,6 +61,6 @@ In MOS devices, Rp (PMOS) and Rn (NMOS) act as ***non-linear resistors***, where
    ![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/b00b68500fcfa2d6dcdfd79179f482d8e0138601/DAY2/picslab2/Screenshot%20from%202025-10-16%2019-58-23.png)
 
 . **Step 4:**
-   -***Merge the PMOS and NMOS load*** curves by combining their drain current (Ids) characteristics with respect to Vout.
-   -  ***Plot the Voltage Transfer Characteristic (VTC) ***by mapping Vout against Vin, showing the transition from low to high output voltage.
+   -  ***Merge the PMOS and NMOS load*** curves by combining their drain current (Ids) characteristics with respect to Vout.
+   -  ***Plot the Voltage Transfer Characteristic (VTC) ***by mapping Vout against Vin, showing the transition from low to high output          voltage.
 ![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/818c40415bb9b0160cb82bb03fd51f2c483970c5/DAY2/picslab2/Screenshot%20from%202025-10-16%2019-59-39.png)

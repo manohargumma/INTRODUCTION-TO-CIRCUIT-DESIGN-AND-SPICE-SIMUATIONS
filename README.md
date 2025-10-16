@@ -33,3 +33,9 @@ The delay table values are obtained from SPICE simulations, which are also used 
 ---
 ![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/ece5f17695fe52b2c1d9e7d118658401b966ffe4/pics/WhatsApp%20Image%202025-10-16%20at%2014.29.39.jpeg)
 
+***Threshold Voltage:*** A key parameter that drives SPICE simulations, representing the voltage at which a transistor switches from off to on.
+![image](
+
+***Strong Inversion:*** The condition where the transistor channel is fully formed, allowing significant current flow.
+
+***Threshold Voltage with Substrate Potential:*** The threshold voltage varies with changes in substrate potential due to the body effect.

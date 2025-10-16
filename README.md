@@ -16,3 +16,4 @@ These simulations are essential for measuring key parameters such as delay, rise
 The difference between CBUF1 and CBUF2 comes from their circuit design, which might have different drive strengths or W/L ratios (transistor width-to-length).
 
 The delay table values are obtained from SPICE simulations, which are also used to verify delays for the circuit design.
+## Introduction to Basic Element in Circuit Design - NMOS Transistor

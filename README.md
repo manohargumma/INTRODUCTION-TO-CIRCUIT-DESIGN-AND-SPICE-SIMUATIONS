@@ -64,4 +64,4 @@ In the saturation (or pinch-off) region, the drain current Id becomes independen
 ->Vin in 0 2.5: Defines an input voltage source of 2.5V between in and ground (0).
 ![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/a6590f7b41f8a80a61ec1554158dd33047b1fda9/pics/Screenshot%20from%202025-10-16%2015-16-07.png)
 ## Spice Technologiefile 
-![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/a6590f7b41f8a80a61ec1554158dd33047b1fda9/pics/Screenshot%20from%202025-10-16%2015-16-07.png)
+![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/d5a792ebdbd8f5cfa443a4e204bf8d461190b68d/pics/Screenshot%20from%202025-10-16%2015-16-46.png)

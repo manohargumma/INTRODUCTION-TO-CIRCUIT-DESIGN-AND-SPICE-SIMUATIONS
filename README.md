@@ -31,5 +31,5 @@ The delay table values are obtained from SPICE simulations, which are also used 
 - **Complementary Device:** PMOS  
 
 ---
-![image](
+![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/ece5f17695fe52b2c1d9e7d118658401b966ffe4/pics/WhatsApp%20Image%202025-10-16%20at%2014.29.39.jpeg)
 

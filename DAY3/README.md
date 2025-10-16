@@ -1,4 +1,4 @@
-# **1. Voltage Transfer Characteristics: SPICE Simulations**  
+# ** Voltage Transfer Characteristics: SPICE Simulations**  
 For a **CMOS inverter**, the **SPICE deck** includes:
 
 - **Component Connectivity:** Define connections between components like **PMOS**, **NMOS**, **Vdd**, **Vss**, and **Vin/Vout**. 

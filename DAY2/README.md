@@ -55,5 +55,5 @@ In MOS devices, Rp (PMOS) and Rn (NMOS) act as ***non-linear resistors***, where
 
 ### Step 2 & Step 3:
 
-  -Convert PMOS and NMOS drain-source voltages to Vout.
-  -Relate the drain-source voltages of both devices to the output voltage (Vout) by considering their respective operating regions (linear or saturation).
+     ->Convert PMOS and NMOS drain-source voltages to ***Vout***.<br>
+      ->Relate the drain-source voltages of both devices to the output voltage (Vout) by considering their respective operating regions (linear or saturation).

@@ -8,7 +8,7 @@
   - Ensures signals with small noise added to **logic 1** remain as logic 1 and those with noise on **logic 0** remain as logic 0.  
 
 - **Application:**  
-  - Consider two back-to-back CMOS inverters.  
+  - Consider two back-to-back CMOS inverters.   
   - The voltage transfer curve (VTC) determines noise margins:  
     - **Ideal VTC**, **Piece-wise Linear VTC**, and **Realistic VTC** depict inverter robustness.  
 ![noise margin](https://github.com/user-attachments/assets/a33b8aeb-ae0d-43d9-ae48-7def565b38a7)

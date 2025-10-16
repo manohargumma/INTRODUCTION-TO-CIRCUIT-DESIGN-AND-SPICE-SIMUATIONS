@@ -44,6 +44,12 @@ In MOS devices, Rp (PMOS) and Rn (NMOS) act as ***non-linear resistors***, where
    - Drain current (**Ids**) becomes **constant** and independent of **Vds**.  
    - For **NMOS**, Ids depends on **Vgs - Vth**.  
    - For **PMOS**, Ids depends on **Vth - Vgs**.
-![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/9bcf3eb89b27daca5b438e80e39f71ed7f8f3331/DAY2/picslab2/Screenshot%20from%202025-10-16%2019-56-02.png)   
 
+
+![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/9bcf3eb89b27daca5b438e80e39f71ed7f8f3331/DAY2/picslab2/Screenshot%20from%202025-10-16%2019-56-02.png)   
+### Step1. Convert PMOS gate-source voltage to Vin.
+Replace internal node voltages with ***Vin***, ***Vdd***, ***Vss***, and ***Vout***.<br>
+Simulate and plot the ***VTC*** by varying ***Vin*** and analyzing Vout. 
+
+![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/aaeca61942eaf3259b2a3003875ccce1a9946b7a/DAY2/picslab2/Screenshot%20from%202025-10-16%2019-57-48.png)
 

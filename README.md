@@ -77,6 +77,9 @@ SPICE (Simulation Program with Integrated Circuit Emphasis) is a powerful tool u
 To use SPICE with Sky130 technology, you can clone the relevant GitHub repository containing Sky130 models and circuits for simulation.
 **Clone the repo:**<br>
 Clone the repository with the following command:
-'''bash
+
 git clone https://github.com/kunalg123/sky130CircuitDesignWorkshop.git
-'''
+
+```bash
+git clone https://github.com/kunalg123/sky130CircuitDesignWorkshop.git
+```

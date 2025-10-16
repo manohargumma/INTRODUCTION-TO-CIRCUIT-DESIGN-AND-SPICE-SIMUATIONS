@@ -101,6 +101,4 @@ display
 
 
  ```   
-
- ![WhatsApp Image 2024-12-14 at 5 54 27 AM](https://github.com/user-attachments/assets/43ebdaa6-fb03-4f5a-94cd-b2dd3a9c82d3)
- ![WhatsApp Image 2024-12-14 at 5 54 27 AM (1)](https://github.com/user-attachments/assets/293edd46-ef9c-4e2c-afb9-edabb73ad6e7)
+![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/f3fdf863c94a986543f5e7884f4123252661f53f/DAY4/day4pics/Screenshot%20from%202025-10-16%2023-16-05.png)

@@ -47,13 +47,18 @@ In MOS devices, Rp (PMOS) and Rn (NMOS) act as ***non-linear resistors***, where
 
 
 ![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/9bcf3eb89b27daca5b438e80e39f71ed7f8f3331/DAY2/picslab2/Screenshot%20from%202025-10-16%2019-56-02.png)   
-### Step1. Convert PMOS gate-source voltage to Vin.
- -Replace internal node voltages with ***Vin***, ***Vdd***, ***Vss***, and ***Vout***.<br>
+***Step1. Convert PMOS gate-source voltage to Vin.***
+  -Replace internal node voltages with ***Vin***, ***Vdd***, ***Vss***, and ***Vout***.<br>
   -Simulate and plot the ***VTC*** by varying ***Vin*** and analyzing Vout. 
 
 ![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/aaeca61942eaf3259b2a3003875ccce1a9946b7a/DAY2/picslab2/Screenshot%20from%202025-10-16%2019-57-48.png)
 
-### Step 2 & Step 3:
 
-     ->Convert PMOS and NMOS drain-source voltages to ***Vout***.<br>
-      ->Relate the drain-source voltages of both devices to the output voltage (Vout) by considering their respective operating regions (linear or saturation).
+ 
+. **Step 2 & Step 3:**
+   - Convert PMOS and NMOS drain-source voltages to ***Vout***
+   -  Relate the drain-source voltages of both devices to the output voltage (Vout) by considering their respective operating regions (linear or saturation). 
+   ![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/b00b68500fcfa2d6dcdfd79179f482d8e0138601/DAY2/picslab2/Screenshot%20from%202025-10-16%2019-58-23.png)
+
+
+![image](

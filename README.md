@@ -133,4 +133,7 @@ setplot dc1
 $cd /VLSI/sky130CircuitDesignWorkshop/design
 $ ngspice day1_nfet_idvds_L2_W5.spice
 --->plot -vdd#branch
-``
+```
+## The plot of Ids vs Vds over constant Vgs:
+![image](https://github.com/manohargumma/Post-Synthesis-GLS-STA-Fundamentals/blob/7e1e3a0769f7f19e38580a00c6c3442d4775182d/Screenshot%20from%202025-10-16%2016-05-03.png)
+![image](https://github.com/manohargumma/Post-Synthesis-GLS-STA-Fundamentals/blob/7e1e3a0769f7f19e38580a00c6c3442d4775182d/Screenshot%20from%202025-10-16%2016-05-09.png)

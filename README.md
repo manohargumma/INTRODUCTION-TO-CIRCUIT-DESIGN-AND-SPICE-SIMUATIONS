@@ -32,8 +32,8 @@ The delay table values are obtained from SPICE simulations, which are also used 
 ## NMOS Resistive and Saturation Regions of Operation
 Resistive region of operation with small drain-source voltage
 ![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/fdf814f8fbf32443b619fdbd06ead3203ec73b3f/pics/Screenshot%20from%202025-10-16%2015-06-05.png)
-**Drift Current:** Current caused by a potential difference across the material.
-**Diffusion Current:** Current resulting from a difference in carrier concentration.
+**Drift Current:** Current caused by a potential difference across the material.<br>
+**Diffusion Current:** Current resulting from a difference in carrier concentration.<br>
 **Cox:** A constant value provided by the foundry, representing oxide capacitance.
 ![image](https://github.com/manohargumma/INTRODUCTION-TO-CIRCUIT-DESIGN-AND-SPICE-SIMUATIONS/blob/fdf814f8fbf32443b619fdbd06ead3203ec73b3f/pics/Screenshot%20from%202025-10-16%2015-06-58.png)
 ## Drain current model for linear region of operation

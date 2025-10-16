@@ -72,14 +72,22 @@ In the saturation (or pinch-off) region, the drain current Id becomes independen
 
 SPICE (Simulation Program with Integrated Circuit Emphasis) is a powerful tool used for simulating the behavior of electronic circuits. It allows circuit designers to analyze and validate designs before fabrication by providing insights into performance metrics such as voltage, current, and power consumption.
 
-**SPICE Lab with Sky130 Models** <br>
+## 2.SPICE Lab with Sky130 Models** <br>
 
 To use SPICE with Sky130 technology, you can clone the relevant GitHub repository containing Sky130 models and circuits for simulation.
 **Clone the repo:**<br>
 Clone the repository with the following command:
 
-git clone https://github.com/kunalg123/sky130CircuitDesignWorkshop.git
-
 ```bash
 git clone https://github.com/kunalg123/sky130CircuitDesignWorkshop.git
 ```
+## 3.Important Files in the Repo:
+
+1./sky130CircuitDesignWorkshop/design/sky130_fd_pr/cells/nfet_01v8/sky130_fd_pr__nfet_01v8__tt.pm3.spice<br>
+This file contains the SPICE model for the NFET (N-channel MOSFET) in the Sky130 process at typical (tt) conditions.<br><br>
+
+2./sky130CircuitDesignWorkshop/design/sky130_fd_pr/cells/nfet_01v8/sky130_fd_pr__nfet_01v8__tt.corner.spice<br>
+This file provides the corner model for the NFET, used for simulating different process variations.<br><br>
+
+3./sky130CircuitDesignWorkshop/design/sky130_fd_pr/models/sky130.lib.pm3.spice<br>
+This library file contains all the SPICE models for components in the Sky130 process node.<br><br>
